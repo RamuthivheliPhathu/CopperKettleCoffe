@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 460" width="400" height="460" role="img" aria-labelledby="logoTitle logoDesc">
+    <title id="logoTitle">Copper Kettle Coffee House logo</title>
+    <desc id="logoDesc">An oval badge with a coffee cup and steam, with the shop name below.</desc>
+
+    <defs>
+        <linearGradient id="copperGradFull" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#B5651D"/>
+            <stop offset="100%" stop-color="#4A3124"/>
+        </linearGradient>
+    </defs>
+
+    <ellipse cx="200" cy="170" rx="165" ry="150" fill="#F3E9DD" stroke="url(#copperGradFull)" stroke-width="10"/>
+    <ellipse cx="200" cy="170" rx="142" ry="128" fill="none" stroke="#B5651D" stroke-width="2" opacity="0.5"/>
+
+    <g stroke="#B5651D" stroke-width="6" stroke-linecap="round" fill="none" opacity="0.8">
+        <path d="M175,95 C165,80 185,70 175,55"/>
+        <path d="M200,95 C190,80 210,70 200,50"/>
+        <path d="M225,95 C215,80 235,70 225,55"/>
+    </g>
+
+    <path d="M130,115 h110 v55 a55,55 0 0 1 -110,0 z" fill="#4A3124"/>
+    <path d="M130,115 h110 v14 h-110 z" fill="#6B4A33"/>
+    <path d="M240,140 c30,0 30,45 0,45" fill="none" stroke="#4A3124" stroke-width="10"/>
+    <ellipse cx="185" cy="232" rx="75" ry="14" fill="#4A3124"/>
+
+    <text x="200" y="390" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="32" font-weight="bold" fill="#4A3124">Copper Kettle</text>
+    <text x="200" y="424" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="28" font-weight="bold" fill="#4A3124">Coffee House</text>
+    <text x="200" y="448" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="14" letter-spacing="3" fill="#B5651D">EST. 2020</text>
+</svg>

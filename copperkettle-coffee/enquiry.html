@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Copper Kettle Coffee House | Bookings &amp; Catering</title>
+    <meta name="description" content="Enquire about catering, private events, or group bookings at Copper Kettle Coffee House.">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="site-header">
+        <img src="images/logo-icon.svg" alt="Copper Kettle Coffee House logo" width="70" height="60">
+        <div class="brand-text">
+            <h1>Copper Kettle Coffee House</h1>
+            <p class="tagline">Specialty coffee, tea &amp; fresh pastries, made daily</p>
+        </div>
+    </header>
+
+    <nav aria-label="Main">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="enquiry.html">Bookings &amp; Catering</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <section id="enquiry-intro">
+            <h2>Catering &amp; Group Booking Enquiries</h2>
+            <p>
+                Coffee for a meeting, a table reserved for a group, or a private event? Fill in the
+                form below and we'll get back to you within two working days with availability and
+                a quote.
+            </p>
+            <p>Invoiced catering orders can be paid by EFT; walk-in and small group orders can be settled with <strong>cash</strong>, card, or SnapScan on the day.</p>
+        </section>
+
+        <!--
+            Booking/catering form: structure and basic HTML5 attributes only.
+            Client-side JavaScript validation will be added in Part 3.
+        -->
+        <section id="enquiry-form">
+            <form action="#" method="post">
+
+                <fieldset>
+                    <legend>Your Details</legend>
+
+                    <label for="full-name">Full Name</label>
+                    <input type="text" id="full-name" name="full-name" required>
+
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Booking Details</legend>
+
+                    <label for="enquiry-type">Enquiry Type</label>
+                    <select id="enquiry-type" name="enquiry-type">
+                        <option value="catering">Catering / Coffee Cart</option>
+                        <option value="group">Group Table Booking</option>
+                        <option value="private-event">Private Event</option>
+                        <option value="other">Other</option>
+                    </select>
+
+                    <label for="event-date">Preferred Date</label>
+                    <input type="date" id="event-date" name="event-date" required>
+
+                    <label for="guests">Approximate Number of Guests</label>
+                    <input type="number" id="guests" name="guests" min="1">
+
+                    <label for="payment-preference">Preferred Payment Method (if known)</label>
+                    <select id="payment-preference" name="payment-preference">
+                        <option value="cash">Cash</option>
+                        <option value="card">Card</option>
+                        <option value="snapscan">SnapScan</option>
+                        <option value="eft">EFT / Invoice</option>
+                    </select>
+
+                    <label for="message">Tell us more about your event</label>
+                    <textarea id="message" name="message" rows="6" required></textarea>
+                </fieldset>
+
+                <button type="submit">Send Enquiry</button>
+
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>12 Roastery Lane, Fernwood &nbsp;|&nbsp; (011) 555-0287</p>
+        <p>&copy; 2026 Copper Kettle Coffee House. All rights reserved.</p>
+        
+        
+    </footer>
+
+</body>
+</html>
